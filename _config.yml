@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ISHIN.XYZ
+title: ishin
 subtitle: ""
 description: ""
 keywords:
@@ -96,8 +96,18 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cactus
 
+theme_config:
+  colorscheme: light
+  nav:
+    home: /
+    about: /about/
+    articles: /archives/
+    projects: https://github.com/ishin-xyz
+  copyright:
+    start_year: 2024
+    end_year:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
